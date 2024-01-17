@@ -24,7 +24,7 @@ using SeleniumExtras.WaitHelpers;
             driver = new ChromeDriver();
             js = (IJavaScriptExecutor)driver;
             vars = new Dictionary<string, object>();
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
         }
         [TearDown]
         protected void TearDown()

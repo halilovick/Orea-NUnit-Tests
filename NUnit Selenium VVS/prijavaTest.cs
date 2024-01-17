@@ -35,7 +35,7 @@ public class PrijavaTest
     }
 
     [Test]
-    public void PrijavaTest()
+    public void prijavaTest()
     {
         var surname = "ProbaSurname";
         driver.Navigate().GoToUrl("https://www.oreabazaar.com/");

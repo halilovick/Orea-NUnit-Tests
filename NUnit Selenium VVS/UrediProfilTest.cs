@@ -12,7 +12,7 @@ using OpenQA.Selenium.Interactions;
 using NUnit.Framework;
 using SeleniumExtras.WaitHelpers;
 [TestFixture]
-public class UrediProfilTestTest
+public class UrediProfilTest
 {
     private IWebDriver driver;
     private WebDriverWait wait;
